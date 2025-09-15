@@ -19,6 +19,79 @@
     <!-- screen size -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- favicon -->
+    <link rel="icon" type="image/jpeg" href="images/pfp.jpeg">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- css -->
+    <style>
+        :root {
+            font-family: 'Borel', sans-serif;
+            color: black;
+        }
+
+        p {
+            font-weight: 400;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        /* links */
+        a:visited,
+        a:link {
+            color:darkred;
+        }
+
+        a:active,
+        a:hover {
+            color: red;
+        }
+
+        /* buttons */
+        .button:link,
+        .button:visited,
+        .button,
+        button {
+            background-color: darkred;
+            padding: 0.4em 1.5em;
+            font-family: 'Borel', sans-serif;
+            font-size: 1em;
+            font-weight: 400;
+            color: white;
+            transition: ease-out 0.1s;
+            border: 3px solid rgb(58, 2, 2);
+            border-radius: 1em;
+            text-decoration: inherit;
+            white-space: nowrap;
+        }
+
+        .button:hover,
+        button:hover {
+            background-color: red;
+            transform: scale(1.04) translateY(-5%);
+        }
+
+        .button:active
+        button:active {
+            background-color: red;
+            transform: scale(1) translate(5%)
+        }
+
+
+
+
+
+    </style>
+
+
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
     Laboriosam dolorum molestiae porro reiciendis ipsam magnam quasi 
     excepturi illum dolore voluptatum non ipsum nisi quas, quam dicta, 
@@ -26,5 +99,13 @@
     </p>
 
 </head>
+
+<body>
+
+    <a class="button" href="https://github.com/jyatch" target="_blank">
+        jyatch
+    </a>
+
+</body>
 
 </html>
